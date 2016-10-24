@@ -4,11 +4,11 @@
 # of every number up to the current number multiplied together.
 
 def factorial(integer)
-	product = 1
-	(2..integer).each do |i|
-		product *= i
-	end
-	return product
+  product = 1
+  (2..integer).each do |i|
+    product *= i
+  end
+  return product
 end
 
 puts factorial(5)

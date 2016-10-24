@@ -5,13 +5,13 @@
 # in them, listing the first items first.
 
 def combinations(array1, array2)
-	result = []
-	array1.each do |word1|
-		array2.each do |word2|
-			result.push("#{word1}#{word2}")
-		end
-	end
-	return result
+  result = []
+  array1.each do |word1|
+    array2.each do |word2|
+      result.push("#{word1}#{word2}")
+    end
+  end
+  return result
 end
 
 p combinations(["on","in"],["to","rope"])
